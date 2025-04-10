@@ -5,7 +5,7 @@
         "description": "A thief who enters the dreams of others to steal secrets from their subconscious.",
         "language": ["English", "Hindi", "Telugu"],
         "genre": ["Action", "Sci-Fi", "Thriller"],
-        "duration": "PT2H28M",
+        "duration": "2h 28m",
         "poster":"assets/movie1.avif"
     },
     {
@@ -14,7 +14,7 @@
         "description": "A thief who enters the dreams of others to steal secrets from their subconscious.",
         "language": ["English", "Hindi", "Telugu"],
         "genre": ["Action", "Sci-Fi", "Thriller"],
-        "duration": "PT2H28M",
+        "duration": "2h 28m",
         "poster":"assets/movie2.avif"
     },
     {
@@ -23,7 +23,7 @@
         "description": "A thief who enters the dreams of others to steal secrets from their subconscious.",
         "language": ["English", "Hindi", "Telugu"],
         "genre": ["Action", "Sci-Fi", "Thriller"],
-        "duration": "PT2H28M",
+        "duration": "2h 28m",
         "poster":"assets/movie3.avif"
     },
     {
@@ -32,7 +32,7 @@
         "description": "A thief who enters the dreams of others to steal secrets from their subconscious.",
         "language": ["English", "Hindi", "Telugu"],
         "genre": ["Action", "Sci-Fi", "Thriller"],
-        "duration": "PT2H28M",
+        "duration": "2h 28m",
         "poster":"assets/movie4.avif"
     },
     {
@@ -50,7 +50,7 @@
         "description": "A thief who enters the dreams of others to steal secrets from their subconscious.",
         "language": ["English", "Hindi", "Telugu"],
         "genre": ["Action", "Sci-Fi", "Thriller"],
-        "duration": "PT2H28M",
+        "duration": "2h 28m",
         "poster":"assets/movie6.avif"
     },
     {
@@ -59,7 +59,7 @@
         "description": "A thief who enters the dreams of others to steal secrets from their subconscious.",
         "language": ["English", "Hindi", "Telugu"],
         "genre": ["Action", "Sci-Fi", "Thriller"],
-        "duration": "PT2H28M",
+        "duration": "2h 28m",
         "poster":"assets/movie7.avif"
     },
     {
@@ -68,7 +68,7 @@
         "description": "A thief who enters the dreams of others to steal secrets from their subconscious.",
         "language": ["English", "Hindi", "Telugu"],
         "genre": ["Action", "Sci-Fi", "Thriller"],
-        "duration": "PT2H28M",
+        "duration": "2h 28m",
         "poster":"assets/movie8.avif"
     }
 ]

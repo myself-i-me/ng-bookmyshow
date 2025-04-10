@@ -1,0 +1,57 @@
+[
+    {
+      "name": "Prasads Multiplex",
+      "location": "Khairtabad, Hyderabad",
+      "address": "IMAX Road, NTR Marg, behind of, Khairtabad, Hyderabad, Telangana 500063",
+      "screens": ["IMAX", "PCX", "Standard"]
+    },
+    {
+      "name": "AMB Cinemas",
+      "location": "Kondapur, Hyderabad",
+      "address": "Kondapur, Hyderabad, Telangana 500084",
+      "screens": ["Premium", "Standard"]
+    },
+    {
+      "name": "PVR Cinemas - Forum Sujana Mall",
+      "location": "Kukatpally, Hyderabad",
+      "address": "Forum Sujana Mall, Kukatpally, Hyderabad, Telangana 500072",
+      "screens": ["4DX", "Gold Class", "Standard"]
+    },
+    {
+      "name": "INOX - GVK One Mall",
+      "location": "Banjara Hills, Hyderabad",
+      "address": "GVK One Mall, Rd Number 1, Banjara Hills, Hyderabad, Telangana 500034",
+      "screens": ["Standard", "Luxury"]
+    },
+    {
+      "name": "Cinépolis - Mantra Mall",
+      "location": "Attapur, Hyderabad",
+      "address": "Mantra Mall, Attapur, Hyderabad, Telangana 500048",
+      "screens": ["Dolby Atmos", "Standard"]
+    },
+    {
+      "name": "Asian Cinemas - M Cube Mall",
+      "location": "Mehdipatnam, Hyderabad",
+      "address": "M Cube Mall, Inner Ring Rd, near Pillar Number 118, Mehdipatnam, Hyderabad, Telangana 500064",
+      "screens": ["Standard"]
+    },
+    {
+      "name": "Sandhya 70 MM",
+      "location": "RTC X Roads, Hyderabad",
+      "address": "RTC X Roads, Hyderabad, Telangana 500020",
+      "screens": ["70mm"]
+    },
+    {
+      "name": "Sudharshan 35 MM",
+      "location": "RTC X Roads, Hyderabad",
+      "address": "RTC X Roads, Hyderabad, Telangana 500020",
+      "screens": ["35mm"]
+    },
+    {
+      "name": "Aradhana 70 MM",
+      "location": "Tarnaka, Hyderabad",
+      "address": "Inner Ring Rd, Opp Big Bazaar, Tarnaka, Hyderabad, Telangana 500017",
+      "screens": ["70mm"]
+    }
+  ]
+  

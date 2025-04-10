@@ -1,1 +1,30 @@
-<p>{{movie.title}}</p>
+<div class=" bg-[url('https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/mad-square-et00435629-1740499947.jpg')] bg-center min-h-[80vh]"> 
+    <div class=" flex text-white items-center pl-8 min-h-[80vh] bg-[linear-gradient(to_right,_black_0%,_black_40%,_transparent_90%,_black_100%)] w-full">
+    <div class=" w-[250px] rounded-xl overflow-hidden">
+        <img src={{movie.poster}} alt="">
+    </div> 
+    <div class="ml-5 mt-11">
+        <div class=" text-3xl font-bold mb-4">
+            {{movie.title}}
+        </div>
+        <div class=" bg-[#333333] mb-4 h-[64px] items-center text-white text-[18px] px-3 rounded-lg w-[488px] flex justify-between">
+            <div>8.4/10 (22.4k Votes) ></div>
+            <div class="bg-white rounded-lg justify-center items-center flex ml-1 px-3 py-2 border-none text-[#1a1a1a] cursor-pointer">Rate now</div>
+        </div>
+        <div class=" flex gap-3 mb-4">
+            <div class=" flex bg-[#e5e5e5] text-black px-2 py-0.5 rounded-sm self-start mt-2">2D</div>
+            <div class="bg-[#e5e5e5] text-black px-2 py-0.5 rounded-sm self-start mt-2" *ngFor="let language of movie.language">{{language}}</div>
+        </div>
+        <div class=" flex text-[16px]">
+            <div>{{movie.duration}}</div>
+            &nbsp;
+            •
+            &nbsp;
+            <div *ngFor="let genre of movie.genre">{{genre}}, </div>
+        </div>
+        <div (click)="goToSeatSelection()" class="border border-[#f84464] text-white bg-[#f84464] rounded-lg cursor-pointer w-[214px] h-[48px] flex justify-center items-center font-bold mt-6">
+            Book tickets
+        </div>
+    </div>
+</div>
+</div>

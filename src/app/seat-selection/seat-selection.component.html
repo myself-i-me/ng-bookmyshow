@@ -1,3 +1,28 @@
-<div>
-    
+<div class=" flex justify-end pr-6">
+    <label for="tickets" class="block mb-2 font-medium">No. of Tickets: </label>
+    <select id="tickets" [(ngModel)]="selectedTicketCount" class="border px-2 rounded">
+        <option [value]="0" disabled selected>Select</option>
+        <option *ngFor="let count of 12 | range" [value]="count">
+            {{ count }}
+        </option>
+    </select>
+</div>
+
+<div class=" w-full flex pl-50 mt-20 overflow-y-scroll max-h-[70vh]">
+    <div>
+        <div class=" flex flex-wrap justify-center items-center" *ngFor="let row of seatsData.rows | range">
+            <div class=" text-[#b3b3b3] mr-12">{{Seats[row]}}</div>
+            <div (click)="selectSeat(row,column)" *ngFor="let column of seatsData.columns | range"
+                class=" self-center cursor-pointer w-[25px] h-[25px] border flex justify-center items-center text-[10px] m-1 rounded-[2px]"
+                [ngClass]="getClass(row,column)">
+                {{column}}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div *ngIf="(selectedTicketCount > 0 && selectedTicketCount == selectedSeats.length)" class=" w-full flex justify-center items-center h-full">
+    <div class="border border-[#f84464] text-white bg-[#f84464] rounded-lg cursor-pointer w-[414px] h-[48px] flex justify-center items-center font-bold mt-6">
+        Pay Rs.{{selectedSeats.length*295}}
+    </div>
 </div>
