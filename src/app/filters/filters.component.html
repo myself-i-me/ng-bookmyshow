@@ -1,0 +1,14 @@
+<div class=" bg-white rounded-md pl-6 text-[rgb(220, 53, 75)] m-8 pt-3 text-[#dc354b] ">
+    <div class="flex gap-4">
+        <div class="w-[10px] pt-2.5 cursor-pointer">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 10"><path fill="none" stroke="#666666" stroke-width="1.5" d="M335 3L342 9.5 335 16" transform="matrix(0 -1 -1 0 17 344)"></path></svg>
+        </div>
+        <div class="mb-3">{{filterTitle}}</div>
+        <div class="ml-auto mr-5 text-[#666666] text-[14px] hover:text-[#dc354b] cursor-pointer">clear</div>
+    </div>
+    <div class=" flex flex-wrap ">
+        <div class=" text-[14px] border border-[#e5e5e58f] px-3 py-1.5 m-1.5 ml-0" *ngFor="let filter of filters">
+            {{filter}}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,74 @@
+[
+    {
+        "movieId": "tt1234567",
+        "title": "Good Bad Ugly",
+        "description": "A thief who enters the dreams of others to steal secrets from their subconscious.",
+        "language": ["English", "Hindi", "Telugu"],
+        "genre": ["Action", "Sci-Fi", "Thriller"],
+        "duration": "PT2H28M",
+        "poster":"assets/movie1.avif"
+    },
+    {
+        "movieId": "tt1234568",
+        "title": "Jaat",
+        "description": "A thief who enters the dreams of others to steal secrets from their subconscious.",
+        "language": ["English", "Hindi", "Telugu"],
+        "genre": ["Action", "Sci-Fi", "Thriller"],
+        "duration": "PT2H28M",
+        "poster":"assets/movie2.avif"
+    },
+    {
+        "movieId": "tt1234569",
+        "title": "Mad Square",
+        "description": "A thief who enters the dreams of others to steal secrets from their subconscious.",
+        "language": ["English", "Hindi", "Telugu"],
+        "genre": ["Action", "Sci-Fi", "Thriller"],
+        "duration": "PT2H28M",
+        "poster":"assets/movie3.avif"
+    },
+    {
+        "movieId": "tt1234566",
+        "title": "Sikandar",
+        "description": "A thief who enters the dreams of others to steal secrets from their subconscious.",
+        "language": ["English", "Hindi", "Telugu"],
+        "genre": ["Action", "Sci-Fi", "Thriller"],
+        "duration": "PT2H28M",
+        "poster":"assets/movie4.avif"
+    },
+    {
+        "movieId": "tt1234565",
+        "title": "Court",
+        "description": "A thief who enters the dreams of others to steal secrets from their subconscious.",
+        "language": ["English", "Hindi", "Telugu"],
+        "genre": ["Action", "Sci-Fi", "Thriller"],
+        "duration": "PT2H28M",
+        "poster":"assets/movie5.avif"
+    },
+    {
+        "movieId": "tt1234564",
+        "title": "Akaal",
+        "description": "A thief who enters the dreams of others to steal secrets from their subconscious.",
+        "language": ["English", "Hindi", "Telugu"],
+        "genre": ["Action", "Sci-Fi", "Thriller"],
+        "duration": "PT2H28M",
+        "poster":"assets/movie6.avif"
+    },
+    {
+        "movieId": "tt1234563",
+        "title": "Gymkhana",
+        "description": "A thief who enters the dreams of others to steal secrets from their subconscious.",
+        "language": ["English", "Hindi", "Telugu"],
+        "genre": ["Action", "Sci-Fi", "Thriller"],
+        "duration": "PT2H28M",
+        "poster":"assets/movie7.avif"
+    },
+    {
+        "movieId": "tt1234562",
+        "title": "Drop",
+        "description": "A thief who enters the dreams of others to steal secrets from their subconscious.",
+        "language": ["English", "Hindi", "Telugu"],
+        "genre": ["Action", "Sci-Fi", "Thriller"],
+        "duration": "PT2H28M",
+        "poster":"assets/movie8.avif"
+    }
+]

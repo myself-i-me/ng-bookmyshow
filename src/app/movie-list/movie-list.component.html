@@ -1,0 +1,19 @@
+<div class=" mb-4">
+    <div class=" text-3xl font-bold">Movies In Hyderabad</div>
+    <div class=" flex flex-wrap gap-2">
+        <div  class="border border-[#cccccc] rounded-3xl cursor-pointer bg-white px-4 py-1.5 text-[12px] " *ngFor="let language of languages">
+            {{language}}
+        </div>
+    </div>
+</div>
+
+<div class=" bg-white py-5 w-[95%] rounded-md flex justify-between px-4">
+    <div class=" font-bold text-[18px]">Coming Soon</div>
+    <div class="text-[#dc354b]">Explore more ></div>
+</div>
+
+<div class=" cursor-pointer flex flex-wrap gap-5 mt-4">
+    <div *ngFor="let movie of moviesList">
+    <img (click)="gotoDetails(movie.movieId)" class=" rounded-md h-[319px]" src={{movie.poster}} alt="">
+    </div>
+</div>
